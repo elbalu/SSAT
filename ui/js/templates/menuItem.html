@@ -1,0 +1,18 @@
+<% if(typeof drill !== 'undefined') { %>
+    <a href="javascript:void(0)" data-target="#<%= name %>" data-parent="#stacked-menu">
+        <i class="<%= icon %>" /><%= title %>
+    </a>
+    <ul class="nav nav-stacked left-submenu" id="<%= name %>">
+        <% _.each(drill, function(val, key) { %>
+            <li>
+                <a href="#<%= val.name %>" class="nav-nested">
+                    <i class="<%= icon %>" /><%= val.title %>
+                </a>
+            </li>
+        <% }) %>
+    </ul>
+<% } else { %>
+    <a href="#page/<%= name %>">
+        <i class="<%= icon %>" /><%= title %>
+    </a>
+<% } %>

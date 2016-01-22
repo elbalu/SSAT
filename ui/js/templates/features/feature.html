@@ -1,0 +1,25 @@
+<section <% if(name !== 'Support') { %>class="thumbnail" <% } else { %> class="col-md-12 alert alert-success"<% } %>>
+    <div class="symbol">
+        <h2>
+            <%= name %>
+        </h2>
+        <h4>
+            <% _.each(features, function(feature) { %>
+                <p class="featureName <%= feature.name %>"><%= feature.name %></p>
+                <ul class="subFeature">
+                    <% _.each(feature.subFeatures, function(sub) { %>
+                        <li>
+                        <% if(name === 'TroubleShoot') { %>
+                            <input type="checkbox" />
+                        <% } %>
+                        <%= sub %></li>
+                        
+                    <% }) %>
+                </ul>
+            <% }) %>
+            <% if(name === 'TroubleShoot') { %>
+                            <input type="button" value="TroubleShoot" class="btn btn-primary">
+                        <% } %>
+        </h4>
+    </div>
+</section>

@@ -1,0 +1,19 @@
+[{
+    "id": "1",
+    "div_id": "download-speed",
+    "icon": "icon icon-download",
+    "url": "/downloadspeed",
+    "class_name": "col-md-3"
+}, {
+    "id": "2",
+    "div_id": "upload-speed",
+    "icon": "icon icon-upload",
+    "url": "/uploadspeed",
+    "class_name": "col-md-3"
+}, {
+    "id": "3",
+    "div_id": "latency",
+    "icon": "icon icon-upload",
+    "url": "/latency",
+    "class_name": "col-md-3"
+}]

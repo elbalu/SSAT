@@ -1,0 +1,13 @@
+<section class="thumbnail">
+    <div class="symbol">
+        <h2>
+            <%= name %>
+        </h2>
+        <p>
+            <% _.each(features, function(feature) { %>
+                <h3><a class="featureName" href="#/<%= userName %>/<%= name %>/<%= feature %>"><%= feature %></a>
+                    <% }) %></h3>
+        </p>
+    </div>
+    
+</section>

@@ -1,0 +1,22 @@
+{
+  "name": "CMXUIGetStarted",
+  "author": "baepalap@cisco.com",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.0",
+    "consolidate": "*",
+    "cookie-parser": "~1.0.1",
+    "cors": "*",
+    "debug": "~0.7.4",
+    "express": "~4.2.0",
+    "jade": "~1.3.0",
+    "morgan": "~1.0.0",
+    "static-favicon": "~1.0.0",
+    "twilio": "^2.8.0",
+    "underscore": "*"
+  }
+}

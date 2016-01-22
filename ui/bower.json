@@ -1,0 +1,19 @@
+{
+  "name": "CMXUIGetStartedBower",
+  "author": "Balu Loganathan",
+  "version": "1.0.0",
+  "dependencies": {
+    "todomvc-common": "~0.1.6",
+    "requirejs": "~2.1.6",
+    "underscore": "~1.4.4",
+    "backbone.marionette": "~1.0.3",
+    "backbone.localStorage": "~1.1.4",
+    "bootstrap-select": "~1.7.4",
+    "highcharts": "~4.1.9",
+    "datatables": "~1.10.9",
+    "datatables-bootstrap3": "*",
+    "fontawesome": "~4.4.0",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}

@@ -1,0 +1,19 @@
+<div class="alert-box"></div>
+<section class="thumbnail">
+    <form role="form" class="cisco-update-form">
+        <div class="symbol">
+            <h2>
+            <%= name %>
+        </h2>
+            <p>
+                <% _.each(customers, function(customer) { %>
+                    <h3><%= customer %>
+                    <% }) %></h3>
+            </p>
+        </div>
+        <div class="form-group">
+            <input type="text" name="updatemessage" id="updatemessage" class="form-control input-sm" placeholder="Enter message">
+        </div>
+        <input type="button" value="Update Customers" class="btn btn-info btn-block cisco-update">
+    </form>
+</section>

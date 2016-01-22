@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: CiscoSansTTExtraLight;
+  background-color: #e8ebf1;
+}
+body .container-fluid {
+  padding-left: 0;
+}
+body header {
+  background-color: #ffffff;
+}
+body header i.brand-logo {
+  color: #049fd9;
+  font-size: 50px;
+}
+body header .brand-title {
+  font-size: 32px;
+  margin-left: 20px;
+}
+body .left-menu {
+  background-color: #049fd9;
+}
+body .left-menu li a {
+  color: #ffffff;
+  font-size: 20px;
+}
+body .left-menu li a:hover {
+  background-color: #34adde;
+}
+body .left-menu li a.nav-nested {
+  margin-left: 20px;
+}
+body .left-menu li.active a {
+  background-color: #34adde;
+}
+.alert-box {
+  margin-bottom: 10px !important;
+}
+.alert-box .alert {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.alert-box .alert i {
+  margin-right: 5px;
+}
+.landingPage .jumbotron {
+  color: #fff;
+}
+.landingPage .jumbotron.slide1 {
+  background-color: #049fd9;
+}
+.landingPage .jumbotron.slide1 i.fa-cogs {
+  font-size: 150px;
+}
+.landingPage .jumbotron.slide1 .btn {
+  background-color: #097dbc;
+}
+.landingPage .jumbotron.slide2 {
+  background-color: #6cc04a;
+}
+.landingPage .jumbotron.slide2 i.fa-user-plus {
+  font-size: 150px;
+}
+.landingPage .jumbotron.slide2 .btn {
+  background-color: #6cc04a;
+}
+.centered-form {
+  margin-top: 60px;
+}
+.centered-form .panel {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}

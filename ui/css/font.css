@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "CiscoSansTTBold";
+  src: url("fonts/CiscoSansTTBold.woff");
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CiscoSansTTRegular";
+  src: url("fonts/CiscoSansTTRegular.woff");
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CiscoSansTTExtraLight";
+  src: url("fonts/CiscoSansTTExtraLight.woff");
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?fhz17d');
+  src: url('fonts/icomoon.eot?#iefixfhz17d') format('embedded-opentype'), url('fonts/icomoon.woff?fhz17d') format('woff'), url('fonts/icomoon.ttf?fhz17d') format('truetype'), url('fonts/icomoon.svg?fhz17d#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-alerts:before {
+  content: "\e613";
+}
+.icon-negatives:before {
+  content: "\e614";
+}
+.icon-positives:before {
+  content: "\e615";
+}
+.icon-neutral:before {
+  content: "\e616";
+}
+.icon-photos:before {
+  content: "\e617";
+}
+.icon-reposts:before {
+  content: "\e618";
+}
+.icon-total:before {
+  content: "\e619";
+}
+.icon-cluter_beacon:before {
+  content: "\e612";
+}
+.icon-router:before {
+  content: "\e60f";
+}
+.icon-switch:before {
+  content: "\e610";
+}
+.icon-accesspoint:before {
+  content: "\e611";
+}
+.icon-cmx_nochange_icon:before {
+  content: "\e600";
+}
+.icon-connection_status:before {
+  content: "\e601";
+}
+.icon-crossover:before {
+  content: "\e602";
+}
+.icon-dwell_breakdown:before {
+  content: "\e603";
+}
+.icon-dwell_time:before {
+  content: "\e604";
+}
+.icon-gross_visitations_hours:before {
+  content: "\e605";
+}
+.icon-manufacturers:before {
+  content: "\e606";
+}
+.icon-path_breakdown:before {
+  content: "\e607";
+}
+.icon-queue_time:before {
+  content: "\e608";
+}
+.icon-repeat_visitations_rate:before {
+  content: "\e609";
+}
+.icon-visitors:before {
+  content: "\e60a";
+}
+.icon-floor:before {
+  content: "\e60b";
+}
+.icon-stopwatch:before {
+  content: "\e60c";
+}
+.icon-bluetooth:before {
+  content: "\e60d";
+}
+.icon-cmxnapps:before {
+  content: "\e60e";
+}
+.no-change {
+  content: url('img/cmx_nochange_icon.png');
+  width: 20%;
+  height: 20%;
+}
+/* Custom font-awesome aliases */
+.fa-analytics:before {
+  content: "\f0e4";
+}
+.fa-location:before {
+  content: "\f041";
+}
+.fa-manage:before {
+  content: "\f085";
+}
+.fa-configure:before {
+  content: "\f0e8";
+}
+.fa-security:before {
+  content: "\f132";
+}
+.fa-connect:before {
+  content: "\f1eb";
+}
+.fa-cmxnapps:before {
+  font-family: 'icomoon';
+  content: "\e60e";
+}
+.fa-presence:before {
+  content: "\f0c0";
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" data-framework="marionettejs">
+
+<head>
+    <meta charset="utf-8">
+    <title>SSAT</title>
+    <link rel="stylesheet" href="./dist/css/bundle.css" />
+    <link rel="stylesheet" href="./css/na.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="header">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"></div>
+            </div>
+                <i class="brand-logo icon icon-cisco"></i>
+            <span class="brand-title">Smart Serviceability Automation & Telemetry</span>
+        </header>
+        <div id="notification"></div>
+        <!-- /#notification -->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="main">
+                </div>
+            </div>
+        </div>
+        <div class="footer" id="footer">
+        </div>
+        <!-- To be used as modal and notifications-->
+        <div class="modal fade" id="dialog" tabindex="-1" role="dialog" aria-hidden="true">
+        </div>
+        <!-- /.modal -->
+    </div>
+    <!-- /container -->
+    <script data-main="js/main" src="bower_components/requirejs/require.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+[{
+    "id": "1",
+    "duration": "24 hours",
+    "durationValue": "24",
+    "durationString": "hours"
+}, {
+    "id": "2",
+    "duration": "3 days",
+    "durationValue": "3",
+    "durationString": "days"
+}, {
+    "id": "3",
+    "duration": "1 week",
+    "durationValue": "1",
+    "durationString": "week"
+}, {
+    "id": "4",
+    "duration": "1 month",
+    "durationValue": "1",
+    "durationString": "month"
+}]
